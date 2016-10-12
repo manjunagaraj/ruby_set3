@@ -27,9 +27,7 @@
 
 
 class Country
-	# def initialize
-	# 	print " Country->"
-	# end
+	
 
 	def countryName(country_name) 
 	 # give the country name.
@@ -39,9 +37,7 @@ class Country
 end
 
 class City < Country
-	# def initialize
-	# 	print "CityName ->"
-	# end
+	
 def cityname(city_name)
 		@city_name=city_name
 
@@ -51,9 +47,7 @@ end
 
 
 class Address < City
-	# def initialize
-	# 	puts "This is my address."
-	# end
+	
 
 	def street(street_address)
 

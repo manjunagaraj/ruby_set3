@@ -2,7 +2,7 @@
 
 numbers = [1,2,3,4]
 
-puts numbers.first
+puts numbers.first()
 
 a = 0.5
 b = 1
